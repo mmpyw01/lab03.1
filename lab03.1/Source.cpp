@@ -22,7 +22,9 @@ int main()
 		sum = (sum + array_a[j]);
 	}
 	printf("(%d)", sum);
-
+	
+	sum = sum * 10;
+	
 	while (sum != 0)
 	{
 		b = sum % 10;
