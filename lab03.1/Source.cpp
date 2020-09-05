@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int num, a, b, i = 0, k, sum, sum2 = 0;
+	int num, a, b, i = 0, k=0, sum = 0, sum2 = 0;
 	int array_a[100], array_b[100];
 
 	printf("Enter number : ");
